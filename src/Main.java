@@ -36,7 +36,7 @@ public class Main {
         }
         // task 4
         System.out.println("Задача 4");
-        int deliveryDistance = 100;
+        int deliveryDistance = 95;
         int deliveryTime = 1;
         if (deliveryDistance < 20) {
             System.out.println("Потребуется дней: " + deliveryTime);
@@ -73,6 +73,8 @@ public class Main {
             case 11:
                 System.out.println("Осень");
                 break;
+            default:
+                System.out.println("Некорректный месяц: " + monthNumber);
             }
     }
 }
